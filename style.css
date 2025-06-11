@@ -98,3 +98,45 @@
     line-height: 1rem;
     color: rgba(156, 163, 175, 1);
 }
+
+/* --- Media Queries for screens 0px to 480px --- */
+@media screen and (max-width: 480px) {
+    .form-container {
+        width: 90%;
+        padding: 20px 15px;
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body{
+        overflow: hidden;
+    }
+    .title {
+        font-size: 1.75rem;
+    }
+
+    .form {
+        gap: 15px; 
+    }
+
+    .input-group input {
+        padding: 0.65rem 0.8rem;
+        width: 90%;
+    }
+
+    .sign1 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sign {
+        width: 100%;
+        padding: 0.65rem;
+    }
+
+    .social-message .message {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
